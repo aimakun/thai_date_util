@@ -1,0 +1,7 @@
+; $Id$
+name = Thai-buddhist Date Utility
+description = Enable views fields that support Thai-buddhist era date, with date conversion and integrated node page output.
+core = 6.x
+version = 6.x-1.0
+package = "opendream"
+dependencies[] = date_api

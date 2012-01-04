@@ -1,0 +1,37 @@
+# Thai date translation of Drupal (6.x)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.x)\n"
+"Language-Team: Thai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+#: /
+msgid ""
+"!month-name "
+"|January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "!month-name |มกราคม|กุมภาพันธ์|มีนาคม|เมษายน|พฤษภาคม|มิถุนายน|กรกฎาคม|สิงหาคม|กันยายน|ตุลาคม|พฤศจิกายน|ธันวาคม"
+
+#: /
+msgid "!month-abbreviation |Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr "!month-abbreviation |ม.ค.|ก.พ.|มี.ค.|เม.ย.|พ.ค.|มิ.ย.|ก.ค.|ส.ค.|ก.ย.|ต.ค.|พ.ย.|ธ.ค."
+
+msgid "!day-name Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
+msgstr "!day-name อาทิตย์|จันทร์|อังคาร|พุธ|พฤหัสบดี|ศุกร์|เสาร์"
+
+#: /
+msgid "!day-abbreviation Sun|Mon|Tue|Wed|Thu|Fri|Sat"
+msgstr "!day-abbreviation อาทิตย์|จันทร์|อังคาร|พุธ|พฤหัส|ศุกร์|เสาร์"
+
+#: /
+msgid "!day-abbreviation S|M|T|W|T|F|S"
+msgstr "!day-abbreviation อา|จ|อ|พ|พฤ|ศ|ส"
+
+#: /
+msgid "!day-abbreviation SU|MO|TU|WE|TH|FR|SA"
+msgstr "!day-abbreviation อา|จ|อ|พ|พฤ|ศ|ส"
+
+#: /
+msgid "Submitted by !username on @datetime"
+msgstr "โพสโดย !username เมื่อวันที่ @datetime"

@@ -1,0 +1,13 @@
+Drupal Module: Thai-Buddhist Date Utility
+
+TODO install:
+1. Use th_date.po in module's directory for import translate text (need Drupal core's locale module enabled, optional)
+2. Enable this module as usual.
+3. For views' node date fields (Post date, Update date) select additional "Type of Era" (Christmas Era by default, Buddhist Era is available)
+4. For views' cck date fields, select additional options in "Format" eg. "(Buddhist) Long", and other one like this.
+5. In node view pages, node submitted date would shown in Buddhist Era by default, you may change date format or disable from module's settings in Administer > Site configuration > Thai-Buddhist Date Utility
+6. For cck date fields which display in node view pages, change their formats in Administer > Content management > Content types > [Type Name] > Display fields
+
+Troubleshooting
+1. When views fields get some errors, try resave system date formats from Administer > Site configuration > Date and time > Formats Tab then click "Save configuration" to reload them.
+2. Some themes maybe have some overridden node submitted text in node view pages, you may disable "Override node date format" option and theme functions would work normally.

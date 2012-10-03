@@ -294,7 +294,7 @@ function thai_date_util_preprocess_node(&$vars) {
     $format = 'j F Y H:i';
     $vars['submitted'] = t('Submitted by !username on @datetime',
       array(
-      '!username' => theme('username', $node),
+      '!username' => theme('username', $vars['node']),
       '@datetime' => thai_date_util_format($vars['node']->created, 'custom', $format, $era_type),
     ));
   }
